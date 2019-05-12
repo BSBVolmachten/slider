@@ -1,0 +1,17 @@
+name: Slider
+modelClass: BsbVolmachten\Slider\Models\Slider
+form: $/bsbvolmachten/slider/models/slider/fields.yaml
+defaultRedirect: bsbvolmachten/slider/slider
+create:
+    title: 'Slide Aanmaken'
+    redirect: 'bsbvolmachten/slider/slider/update/:id'
+    redirectClose: bsbvolmachten/slider/slider
+    flashSave: 'Slide Opgeslagen'
+update:
+    title: 'Slide Bewerken'
+    redirect: bsbvolmachten/slider/slider
+    redirectClose: bsbvolmachten/slider/slider
+    flashSave: 'Slide Opgeslagen'
+    flashDelete: 'Slide Verwijderd'
+preview:
+    title: 'Slide Weergeven'

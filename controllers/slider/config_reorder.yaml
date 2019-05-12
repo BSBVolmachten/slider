@@ -1,0 +1,5 @@
+title: Slider
+modelClass: BsbVolmachten\Slider\Models\Slider
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar

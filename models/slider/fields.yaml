@@ -1,0 +1,59 @@
+fields:
+    title:
+        label: Slagzin
+        span: left
+        required: 1
+        attributes:
+            maxlength: '22'
+        type: text
+        commentAbove: 'Maximaal 22 karakters'
+    text:
+        label: Tekst
+        size: small
+        span: left
+        required: 1
+        attributes:
+            maxlength: '160'
+        type: textarea
+        commentAbove: 'Maximaal 160 karakters'
+    align:
+        label: 'Uitlijning tekst'
+        options:
+            left: Links
+            center: Midden
+        span: left
+        required: 1
+        type: balloon-selector
+    image:
+        label: 'Achtergrond Afbeelding'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        required: 1
+        type: fileupload
+    urlswitch:
+        label: 'Knop met link toevoegen'
+        span: left
+        type: switch
+    url:
+        label: 'Link naar pagina'
+        span: left
+        trigger:
+            action: show
+            field: urlswitch
+            condition: checked
+        type: text
+    url_text:
+        label: 'Tekst in knop'
+        span: left
+        trigger:
+            action: show
+            field: urlswitch
+            condition: checked
+        attributes:
+            maxlength: '15'
+        type: text
+        commentAbove: 'Maximaal 15 karakters'

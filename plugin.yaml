@@ -1,0 +1,17 @@
+plugin:
+    name: 'bsbvolmachten.slider::lang.plugin.name'
+    description: 'bsbvolmachten.slider::lang.plugin.description'
+    author: 'BSB Volmachten'
+    icon: oc-icon-image
+    homepage: ''
+permissions:
+    manage-sliders:
+        tab: 'Sliders Beheren'
+        label: 'Sliders Beheren'
+navigation:
+    main-menu-item:
+        label: Slider
+        url: bsbvolmachten/slider/slider
+        icon: icon-image
+        permissions:
+            - manage-sliders
