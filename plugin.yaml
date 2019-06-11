@@ -12,6 +12,6 @@ navigation:
     main-menu-item:
         label: Slider
         url: bsbvolmachten/slider/slider
-        icon: icon-image
+        icon: oc-icon-image
         permissions:
             - manage-sliders
